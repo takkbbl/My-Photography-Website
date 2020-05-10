@@ -1,0 +1,70 @@
+.wrapper
+{
+    position: relative;
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    @media (min-width: 1024px) {
+        width: 50%;
+        padding-top: 80px;
+    }
+}
+
+.left
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    @media (min-width: 1024px) {
+        width: 50%;
+        text-align: left;
+    }
+}
+
+.right
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    @media (min-width: 1024px) {
+        width: 50%;
+        text-align: right;
+    }
+}
+
+.social
+{
+    margin-top: 40px;
+}
+
+.social img
+{
+    width: 25px;
+    padding-right: 10px;
+}
+
+.wrapper h4
+{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.wrapper p
+{
+    color: #cfcfcf;
+    padding-top: 10px;
+}
+
+.wrapper a
+{
+    color: #cfcfcf;
+    padding-top: 10px;
+}
