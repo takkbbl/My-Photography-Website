@@ -7,7 +7,7 @@ export default class Travel extends Component {
   render() {
     return (
       <Layout>
-        <div className={styles.navbackground}></div>
+
         <div className={styles.wrapper}>
           <Gallery />
         </div>

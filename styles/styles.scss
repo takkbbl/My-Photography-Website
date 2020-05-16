@@ -7,4 +7,9 @@
 #root {
     font-size: 20px;
     color: $text-color;
+    
 }
+::selection
+    {
+        background: $highlight2;
+    }
