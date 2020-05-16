@@ -34,7 +34,6 @@
 .menucontainer
 {
     float: left;
-    //position: fixed;
     top: 60px;
     left: 0px;
     overflow-y: inherit;
@@ -137,7 +136,6 @@
 {
     justify-content: center;    
     width: 100%;
-
     padding-left: 15px;
     padding-top: 10px;
     border-bottom: 1px solid #333;
@@ -165,12 +163,13 @@
     font-size: 0.7em;
     text-decoration: none;
     font-weight: 600;
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
 
     a
     {
         color: white;
-        font-family: 'Lato', sans-serif;
+        font-weight:300;
+        font-family: sans-serif;
         font-size: 1.2em;
         text-decoration:none;
     }
@@ -193,73 +192,6 @@
         color: $primary-color;
     }
 }
-
-/*-------------------------------------------*\
-    Subcontainer.js
-\*-------------------------------------------*/
-
-.subnav
-{
-    float: left;
-    overflow: hidden;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.subnav:hover .subnav-content-container {
-    @media (min-width: 1024px) {
-        display: block;
-    }
-}
-
-.subnav-button
-{
-    font-weight: 600;
-    font-family: 'Lato', sans-serif;
-    padding-bottom: 0px;
-
-    @media (min-width: 1024px) 
-    {
-        &:hover
-        {
-            color: $primary-color;
-            cursor: pointer;
-        }
-    }
-}
-
-.mdkeyboardarrowdown
-{
-    float:right;
-    overflow: hidden;
-    font-size: 1.3em;
-    transition-timing-function: ease-in-out;
-    transition: transform 0.4s;
-    padding-top: 0px;
-    height: 15px;
-    margin-right: 20px;
-
-    @media (min-width: 1024px) 
-    {
-        padding-top: 0;
-        margin-right: 0px;
-        padding-bottom: 0;
-        height: 18px;
-        transform: none !important;
-        
-    }
-    &--submenu
-        {
-            @extend .mdkeyboardarrowdown;
-            @media (min-width: 1024px) 
-            {
-                display: none;
-            }   
-        }
-}
-
-
-
 
 /*-------------------------------------------*\
     SideMenu.js

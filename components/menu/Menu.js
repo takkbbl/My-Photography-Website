@@ -28,7 +28,7 @@ export default class Menu extends Component {
     const currentScrollPos = window.pageYOffset;
     
    
-    if (currentScrollPos <= 20 && !this.state.isVisible)
+    if (currentScrollPos <= 0 && !this.state.isVisible)
     {
         this.setState({hasBackgroundColor:false})
     }

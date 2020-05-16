@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 import React, { Component } from "react";
 
-import styles from "./Pages.module.scss"
+import styles from "./Index.module.scss"
 import Link from "next/link"
 import { MdKeyboardArrowRight } from 'react-icons/md'
 
