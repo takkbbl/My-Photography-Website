@@ -55,16 +55,28 @@
     font-weight: 300;
     text-transform: uppercase;
     padding-bottom: 20px;
+    color: white;
+    opacity: .87;
 }
+
 
 .wrapper p
 {
-    color: #cfcfcf;
+    color: white;
+    opacity: .87;
     padding-top: 10px;
 }
 
 .wrapper a
 {
-    color: #cfcfcf;
+    color: white;
+    opacity: .87;
+    text-decoration: none;
     padding-top: 10px;
+}
+
+.wrapper a:hover
+{
+    color: #00dbaf;
+    opacity: 1;
 }

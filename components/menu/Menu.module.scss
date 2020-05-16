@@ -16,7 +16,6 @@
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    color: black;
     padding-top: 10px;
     padding-bottom: 9px;        
     display: flex;
@@ -73,6 +72,7 @@
 .logohref
 {
     color: white;
+    opacity: .87;
     font-size: 1.2em;
     text-decoration: none;
     text-transform: uppercase;
@@ -122,7 +122,6 @@
 
 .mobiletoggle {
     outline: none;
-
     border: none;
     cursor: pointer;
     background-color: transparent;
@@ -138,10 +137,10 @@
     width: 100%;
     padding-left: 15px;
     padding-top: 10px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid $dark2;
     padding-bottom: 3px;
     list-style-type: none;
-    background-color: #1b1b1b;
+    background-color: $dark1;
 
     @media (min-width: 1024px) {
         padding-top: 13px;
@@ -168,6 +167,7 @@
     a
     {
         color: white;
+        opacity: .87;
         font-weight:300;
         font-family: sans-serif;
         font-size: 1.2em;
@@ -176,8 +176,9 @@
 
     a:hover
     {
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid $highlight1;
         padding-bottom: 5px;
+        color: $highlight1;
     }
 
     @media (min-width: 1024px) {
@@ -190,8 +191,41 @@
     @extend .listitem;
     a
     {
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid $highlight1;
+        color: $highlight1;
         padding-bottom: 5px;
+    }
+}
+
+.listitemside
+{
+    padding: 10px 10px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
+
+    a
+    {
+        color: white;
+        opacity: .87;
+        font-weight:300;
+        font-family: sans-serif;
+        font-size: 1.2em;
+        text-decoration:none;
+    }
+
+    a:hover
+    {
+        border-bottom: 2px solid $highlight2;
+        padding-bottom: 5px;
+        color: $highlight2;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 0 10px;
     }
 }
 
@@ -206,7 +240,7 @@
     width: 100%;
     list-style-type: none;
     padding-left: 15px;
-    background-color: #1b1b1b;
+    background-color: $dark1;
     padding-bottom: 15px;
     box-shadow: 0 8px 5px -4px rgba(0, 0, 0, 0.1);
 

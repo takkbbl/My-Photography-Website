@@ -1,7 +1,10 @@
+@import "../styles/variables.scss";
+
 .wrapper
 {
     position: relative;
     margin: 0;
+    background: $dark2;
 }
 
 .contentwrapper

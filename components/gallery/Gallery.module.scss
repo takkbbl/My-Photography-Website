@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .wrapper
 {
     width: 100%;
@@ -35,20 +37,24 @@
  .next
 {
     text-align: center;
-    background-color: #eee;
+    background-color: $dark1;
     padding-top: 30px;
     padding-bottom: 30px;
     display: block;
     border: none;
-    color: black;
+    color: white;
+    opacity: .87;
     font-size: 1.2em;
     text-transform: uppercase;
     text-decoration: none;
+    border: 2px solid $dark1;
 }
 
 .next:hover
 {
-    background-color: #dedede;
+    background-color: $dark2;
+    border: 2px solid $dark1;
+    background-image: linear-gradient(to right, $highlight1 , $highlight2);
 }
 
 .arrowicon

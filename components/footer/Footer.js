@@ -11,7 +11,7 @@ export default class Footer extends Component {
             <div className={styles.wrapper}>
                 <div className={styles.left}>
                     <div>
-                        <h4>Felix Melchner</h4>
+                        <h4 className={styles.head}>Felix Melchner</h4>
                         <p>Photographer</p>
                         <p>Phone: +49 176 960 454 36</p>
                         <p>Nürnberg, Germany</p>
@@ -24,7 +24,7 @@ export default class Footer extends Component {
                 </div>
                 <div className={styles.right}>
                     <div className={styles.links}>
-                        <h4>Important Links</h4>
+                        <h4 className={styles.links}>Important Links</h4>
                         <p><a href="#">Privacy Policy</a></p>
                         <p><a href="#">Impressum</a></p>
                     </div>
