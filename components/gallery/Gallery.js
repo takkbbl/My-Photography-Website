@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import styles from "./Gallery.module.scss"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { MdKeyboardArrowRight } from 'react-icons/md'
+import Link from "next/link"
 
 export default class Footer extends Component {
   render() {
@@ -104,9 +106,11 @@ export default class Footer extends Component {
                     <LazyLoadImage effect="opacity" src={require("../../public/assets/travel/IMG_9965-viktoria.jpg")}/>
                     <LazyLoadImage effect="opacity" src={require("../../public/assets/travel/IMG_9686-3-insta.jpg")}/>
                     <LazyLoadImage effect="opacity" src={require("../../public/assets/travel/IMG_2059-insta.jpg")}/>
-
                 </div>
             </div>
+            <Link href="/portrait">
+                <a className={styles.next} >Next Gallery<MdKeyboardArrowRight className={styles.arrowicon}/></a>
+            </Link>
         </div>
       </>
     );
