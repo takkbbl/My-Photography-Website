@@ -33,9 +33,12 @@ $maxwidth: 1200px;
 {
     max-width: $maxwidth;
     padding-top: 30px;
+    display: inline-block;
+    padding-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    width: 100%;
 }
 
 .leftimage img

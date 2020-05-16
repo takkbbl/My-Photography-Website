@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import styles from "./Blog.module.scss";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Index = () => (
   <Layout>
@@ -42,8 +42,12 @@ const Index = () => (
           </p>
         </div>
         <div className={styles.imagesection}>
-          <div className={styles.leftimage}><img src={require("../public/assets/travel/IMG_4608-insta.jpg")}/></div>
-          <div className={styles.rightimage}><img src={require("../public/assets/travel/IMG_4672-insta.jpg")}/></div>
+          <div className={styles.leftimage}>
+            <img src={require("../public/assets/travel/IMG_4608-insta.jpg")} />
+          </div>
+          <div className={styles.rightimage}>
+            <img src={require("../public/assets/travel/IMG_4672-insta.jpg")} />
+          </div>
         </div>
         <div className={styles.textsection}>
           <p>
