@@ -1,13 +1,12 @@
 import Layout from '../components/Layout'
+import styles from "./Contact.module.scss";
 
 const Index = () => (
   <Layout>
     <div>
-      <h1>
-        <span>
-          Contact
-        </span>
-      </h1>
+      <div className={styles.wrapper}>
+        <h1>Contact</h1>
+      </div>
     </div>
   </Layout>
 )
