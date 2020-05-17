@@ -37,7 +37,9 @@ export default class Footer extends Component {
             <div className={styles.links}>
               <h4 className={styles.links}>Important Links</h4>
               <p>
-                <a href="#">Privacy Policy</a>
+              <Link href={"/privacy-policy"}>
+                  <a>Privacy Policy</a>
+                </Link>
               </p>
               <p>
                 <Link href={"/impressum"}>
