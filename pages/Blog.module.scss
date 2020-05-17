@@ -6,6 +6,27 @@ $maxwidth: 1200px;
     padding-top: 100px;
     width: 100%;
     background-color: $dark3;
+    padding-bottom: 120px;
+    @media (min-width: 1024px) {
+        padding-bottom: 40px;
+    }
+}
+
+.wrapper h2
+{
+    padding-bottom: 30px;
+}
+
+.wrapper a
+{
+    color: $highlight1;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.wrapper a:hover
+{
+    text-decoration: underline;
 }
 
 .headersection
@@ -29,12 +50,46 @@ $maxwidth: 1200px;
     font-style: italic;
 }
 
+.profilesection
+{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    opacity: .87;
+    height: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile
+{
+    float: left;
+}
+
+.profile img
+{
+    height: 46px;
+    padding-right: 10px;
+}
+
+.author
+{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    
+}
+
 .imagesection
 {
     max-width: $maxwidth;
     padding-top: 30px;
     display: table;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -54,16 +109,27 @@ $maxwidth: 1200px;
     float: left;
 }
 
+.oneimage img
+{
+    max-width: 100%;
+}
+
 .textsection
 {
+    padding-left: 15px;
+    padding-right: 15px;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     color: white;
     opacity: .87;
-    font-size: 1.3em;
+    font-size: 1.1em;
+    font-weight: 400;
     line-height: 1.6em;
+    @media (min-width: 1024px) {
+        font-size: 1.3em;
+    }
 }
 
 .textsection p
@@ -76,4 +142,34 @@ $maxwidth: 1200px;
     padding-top: 20px;
     font-size: 1.5em;
     padding-bottom: 10px;
+}
+
+.button
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.button a
+{
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(to right, $highlight1 , $highlight2);
+    border: none;
+    color: white;
+    font-size: .9em;
+    border-radius: 10px;
+    border: 1px solid $dark3;
+    text-transform: uppercase;
+    @media (min-width: 1024px) {
+        padding: 15px 50px 15px 50px;
+    }
+}
+
+.button a:hover
+{
+    background: transparent;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: pointer;
 }
