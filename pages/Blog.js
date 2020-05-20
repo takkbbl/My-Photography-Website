@@ -7,7 +7,7 @@ const Index = () => (
     <div>
       <div className={styles.wrapper}>
         <div className={styles.headersection}>
-          <h4>Blog</h4>
+          <h4>Travel Blog</h4>
           <h1>10 Days Italy Road Trip Itinerary</h1>
         </div>
         <div className={styles.profilesection}>
