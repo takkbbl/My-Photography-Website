@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@svgr/webpack": "^5.4.0",
+    "axios": "^0.19.2",
     "file-loader": "^6.0.0",
     "framer-motion": "^1.10.3",
     "next": "9.3.6",
