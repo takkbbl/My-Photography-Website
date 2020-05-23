@@ -1,9 +1,15 @@
 import Layout from "../components/Layout";
 import styles from "./Blog.module.scss";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import Head from "next/head" 
 
 const Index = () => (
   <Layout>
+    <Head>
+          <title>Blog | Felix Melchner Photography</title>
+          <meta property="og:url" content="https://www.felixmelchner.de/blog" />
+          <meta property="og:title" content="Felix Melchner Photography | Blog" />
+          <meta property="og:image" content={require("../public/assets/travel/Screen-Shot-2019-08-25-at-14.05.22.png")} />
+        </Head>
     <div>
       <div className={styles.wrapper}>
         <div className={styles.headersection}>

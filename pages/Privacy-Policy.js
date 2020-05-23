@@ -1,8 +1,16 @@
 import Layout from "../components/Layout";
 import styles from "./Privacy.module.scss";
+import Head from "next/head" 
+
 
 const Index = () => (
   <Layout>
+    <Head>
+          <title>Privacy Policy | Felix Melchner Photography</title>
+          <meta property="og:url" content="https://www.felixmelchner.de/privacy-policy" />
+          <meta property="og:title" content="Felix Melchner Photography | Privacy Policy" />
+          <meta property="og:image" content="" />
+        </Head>
     <div>
       <div className={styles.wrapper}>
         <div className={styles.textsection}>

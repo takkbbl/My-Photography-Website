@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styles from "./Gallery.module.scss"
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-export default class DesktopView extends Component {
+export default class MobileView extends Component {
   render() {
     return (
       <>

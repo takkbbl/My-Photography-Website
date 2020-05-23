@@ -4,6 +4,7 @@ import photo from "../public/assets/felixmelchner-contact.jpg"
 import React, { Component } from "react";
 import axios from 'axios';
 import Link from "next/link";
+import Head from "next/head" 
 
 
 export default class Contact extends Component{  
@@ -44,6 +45,12 @@ export default class Contact extends Component{
   render(){
     return(
       <Layout>
+            <Head>
+          <title>Contact | Felix Melchner Photography</title>
+          <meta property="og:url" content="https://www.felixmelchner.de/contact" />
+          <meta property="og:title" content="Felix Melchner Photography | Contact" />
+          <meta property="og:image" content={photo} />
+        </Head>
       <div>
         <div className={styles.wrapper}>
           <div className={styles.innerwrapper}>
@@ -74,7 +81,7 @@ export default class Contact extends Component{
                   />
                   <textarea name='message' required className={styles.inputmessage} placeholder='Leave me a message' type='text' value={this.state.message} onChange={this.myChangeHandler} />
                   <input type="checkbox" id="gdpr" className={styles.gdpr} required name="gdpr" value="Gdkjsfkl"></input>
-                  <label className={styles.gdprlabel} for="gdpr"> I consent to having this website store my submitted information so they can respond to my inquiry.
+                  <label className={styles.gdprlabel} htmlFor="gdpr"> I consent to having this website store my submitted information so they can respond to my inquiry.
 See my <Link href={"/privacy-policy"}>
                   <a target="_blank">Privacy Policy</a>
                 </Link> to learn more about how I use data.</label><br></br>

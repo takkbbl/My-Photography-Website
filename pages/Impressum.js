@@ -1,8 +1,15 @@
 import Layout from "../components/Layout";
 import styles from "./Impressum.module.scss";
+import Head from "next/head" 
 
 const Index = () => (
   <Layout>
+        <Head>
+          <title>Impressum | Felix Melchner Photography</title>
+          <meta property="og:url" content="https://www.felixmelchner.de/impressum" />
+          <meta property="og:title" content="Felix Melchner Photography | Impressum" />
+          <meta property="og:image" content="" />
+        </Head>
     <div>
       <div className={styles.wrapper}>
         <div className={styles.textsection}>
