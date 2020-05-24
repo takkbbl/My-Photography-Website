@@ -1,22 +1,31 @@
-import Layout from '../components/Layout'
-import Head from "next/head" 
+import Layout from "../components/Layout";
+import React, { Component } from "react";
+import Gallery from "../components/gallery/Gallery";
+import styles from "./Portrait.module.scss";
+import Head from "next/head";
+import ogimage from "../public/assets/travel/IMG_6574-insta.jpg";
 
-const Index = () => (
-  <Layout>
-    <Head>
+export default class Portrait extends Component {
+  render() {
+    const gallerytype = "portrait";
+    return (
+      <Layout>
+        <Head>
           <title>Portrait | Felix Melchner Photography</title>
-          <meta property="og:url" content="https://www.felixmelchner.de/portrait" />
-          <meta property="og:title" content="Felix Melchner Photography | Portrait" />
-          <meta property="og:image" content="" />
+          <meta
+            property="og:url"
+            content="https://www.felixmelchner.de/portrait"
+          />
+          <meta
+            property="og:title"
+            content="Felix Melchner Photography | Portrait"
+          />
+          <meta property="og:image" content={ogimage} />
         </Head>
-    <div>
-      <h1>
-        <span>
-          Portrait
-        </span>
-      </h1>
-    </div>
-  </Layout>
-)
-
-export default Index
+        <div className={styles.wrapper}>
+          <Gallery gallerytype={gallerytype} />
+        </div>
+      </Layout>
+    );
+  }
+}

@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import styles from "./Gallery.module.scss"
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { MdKeyboardArrowRight } from 'react-icons/md'
-import Link from "next/link"
-import Desktopview from "./DesktopView"
-import Mobileview from "./MobileView"
+
+
+import Traveldesktopview from "./TravelDesktopView"
+import Travelmobileview from "./TravelMobileView"
+import Portraitdesktopview from "./PortraitDesktopView"
+import Portraitmobileview from "./PortraitMobileView"
 
 export default class Gallery extends Component {
-    constructor(props) {
+    
+  constructor(props) {
         super(props);
         this.state = { height: 512 };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
@@ -26,22 +28,35 @@ export default class Gallery extends Component {
         this.setState({ width: window.innerWidth, height: window.innerHeight });
     }
   render() {
+    
     let view;  
-    if(this.state.width<701)
+    if(this.props.gallerytype === 'travel')
+    {
+      if(this.state.width<701)
       {
-          view = <Mobileview/>
+          view = <Travelmobileview/>
       }
       else
       {
-          view = <Desktopview/>
+          view = <Traveldesktopview/>
       }
+    }
+    else
+    {
+      if(this.state.width<701)
+      {
+          view = <Portraitmobileview/>
+      }
+      else
+      {
+          view = <Portraitdesktopview/>
+      }
+    }
+    
     return (
       <>
         <div className={styles.wrapper}>
             {view}
-            <Link href="/portrait">
-                <a className={styles.next} >Next Gallery<MdKeyboardArrowRight className={styles.arrowicon}/></a>
-            </Link>
         </div>
       </>
     );

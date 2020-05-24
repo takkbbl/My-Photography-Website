@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 import React, { Component } from "react";
 import Head from "next/head" 
-import ogimage from "../public/assets/felixmelchner.jpg"
+import ogimage from "../public/assets/felixmelchner-summer.jpg"
 
 
 import styles from "./Index.module.scss"
@@ -26,7 +26,6 @@ componentWillUnmount() {
 
 updateWindowDimensions() {
     this.setState({ width: window.innerWidth, height: window.innerHeight });
-    console.log(this.state.height);
 }
   
   render(){

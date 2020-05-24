@@ -2,8 +2,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## To Do's
 - Change scrollbar layout
-- Add portrait gallery
-- Change landing page image
 - Dark noisy b/w background image
 - Change text style and format of footer
 - Add dark mode toggle
@@ -11,6 +9,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Add spinner to send button on contact form
 - Add localization (EN, DE) from https://react.i18next.com
 - Play around with framer motion
+
+## Done:
+- Add portrait gallery
+- Change landing page image
 
 
 ## Getting Started
