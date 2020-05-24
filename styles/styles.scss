@@ -4,7 +4,7 @@
     font-family: 'Playfair Display', serif;
     margin: 0;
     scrollbar-width: thin;
-    scrollbar-color: blue $dark1;
+    scrollbar-color: $highlight1 $dark1;
   }
     /* Works on Chrome/Edge/Safari */
     *::-webkit-scrollbar {
