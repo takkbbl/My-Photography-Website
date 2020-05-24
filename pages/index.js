@@ -40,7 +40,7 @@ updateWindowDimensions() {
     <div>
       <div className={styles.background}>
         <div className={styles.bg}>
-          <div className={styles.container} style={{minHeight: this.state.height}} >
+          <div className={styles.container} style={{height: this.state.height}} >
             <div className={styles.text}>
               <h2>Follow me on my</h2>
               <h1>Adventures</h1>

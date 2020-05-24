@@ -1,7 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## To Do's
-- Add favicon
 - Add dark mode toggle
 - Add lazy loading for image gallery
 - Add localization (EN, DE) from https://react.i18next.com
@@ -14,6 +13,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Add portrait gallery
 - Change landing page image
 - Change scrollbar layout
+- Add favicon
 
 ## Getting Started
 
