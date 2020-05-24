@@ -2,12 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## To Do's
 - Add dark mode toggle
-- Add lazy loading for image gallery
 - Add localization (EN, DE) from https://react.i18next.com
 - Change text style and format of footer
 - Add spinner to send button on contact form
 - Play around with framer motion
 - Dark noisy b/w background image
+- Add CTA to bottom of portrait page
 
 ## Done:
 - Add portrait gallery
