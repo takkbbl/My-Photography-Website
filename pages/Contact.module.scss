@@ -9,7 +9,7 @@ $maxwidth: 1200px;
     padding-bottom: 120px;
     @media (min-width: 1024px) {
         padding-bottom: 40px;
-        min-height: 630px;
+        min-height: 800px;
     }
 }
 
@@ -119,6 +119,18 @@ $maxwidth: 1200px;
     color: $highlight1;
     border: none;
     
+}
+
+/* Change autofill color */
+.inputmail:-webkit-autofill,
+.inputmail:-webkit-autofill:hover, 
+.inputmail:-webkit-autofill:focus, 
+.inputmail:-webkit-autofill:active, .inputname:-webkit-autofill,
+.inputname:-webkit-autofill:hover, 
+.inputname:-webkit-autofill:focus, 
+.inputname:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0px 1000px $dark2 inset;
+    -webkit-text-fill-color: $highlight1 !important;
 }
 
 .inputmail:focus
