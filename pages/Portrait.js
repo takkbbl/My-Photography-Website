@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Gallery from "../components/gallery/Gallery";
 import styles from "./Portrait.module.scss";
 import Head from "next/head";
-import ogimage from "../public/assets/travel/IMG_6574-insta.jpg";
+import ogimage from "../public/assets/portrait/felixmelchner_felibasti3.jpg";
 
 export default class Portrait extends Component {
   render() {

@@ -3,7 +3,21 @@
 * {
     font-family: 'Playfair Display', serif;
     margin: 0;
+    scrollbar-width: thin;
+    scrollbar-color: blue $dark1;
   }
+    /* Works on Chrome/Edge/Safari */
+    *::-webkit-scrollbar {
+        width: 12px;
+      }
+      *::-webkit-scrollbar-track {
+        background: $dark1;
+      }
+      *::-webkit-scrollbar-thumb {
+        background-color: $highlight1;
+        border-radius: 20px;
+        border: 3px solid $dark1;
+      }
 #root {
     font-size: 20px;
     color: $text-color;
@@ -13,3 +27,4 @@
     {
         background: $highlight2;
     }
+  
