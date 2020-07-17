@@ -1,15 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## To Do's
-- Add dark mode toggle
+
+- Add link to eyeem https://www.eyeem.com/u/felixmelchner
+- Add dark mode toggle https://blog.prototypr.io/how-i-theme-my-react-app-with-sass-414e8f905541, https://codepen.io/jasonmcaffee/pen/qeEvZN, https://medium.com/@jasonlmcaffee/theming-with-react-and-sass-c7a6882fd26b, https://blog.bitsrc.io/theming-react-components-with-css-variables-ee52d1bb3d90
 - Add localization (EN, DE) from https://react.i18next.com
 - Change text style and format of footer
 - Add spinner to send button on contact form
 - Play around with framer motion
 - Dark noisy b/w background image
 - Add CTA to bottom of portrait page
+- Add smooth scrolling https://stackoverflow.com/questions/47011055/smooth-vertical-scrolling-on-mouse-wheel-in-vanilla-javascript
 
 ## Done:
+
 - Add portrait gallery
 - Change landing page image
 - Change scrollbar layout
