@@ -7,11 +7,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Add localization (EN, DE) from https://react.i18next.com
 - Change text style and format of footer
 - Add spinner to send button on contact form
-- Play around with framer motion
-- Dark noisy b/w background image
 - Add CTA to bottom of portrait page
 - Add smooth scrolling https://stackoverflow.com/questions/47011055/smooth-vertical-scrolling-on-mouse-wheel-in-vanilla-javascript
 
+<<<<<<< HEAD
 ## Done:
 
 - Add portrait gallery
@@ -19,6 +18,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Change scrollbar layout
 - Add favicon
 
+=======
+>>>>>>> 9ccedcf800a60f6002024c4bfbc35a8ace2deaa2
 ## Getting Started
 
 First, run the development server:
