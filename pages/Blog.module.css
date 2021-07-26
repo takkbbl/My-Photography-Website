@@ -1,0 +1,167 @@
+.wrapper {
+  padding-top: 100px;
+  width: 100%;
+  background-color: #222;
+  padding-bottom: 120px;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    padding-bottom: 40px;
+  }
+}
+
+.wrapper h2 {
+  padding-bottom: 30px;
+}
+
+.wrapper a {
+  color: #00dbaf;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
+
+.headersection {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  opacity: .87;
+}
+
+.headersection h1 {
+  font-size: 3em;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.headersection h4 {
+  font-style: italic;
+}
+
+.profilesection {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  opacity: .87;
+  height: 50px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile {
+  float: left;
+}
+
+.profile img {
+  height: 46px;
+  padding-right: 10px;
+}
+
+.author {
+  float: left;
+  height: 50px;
+  line-height: 50px;
+}
+
+.imagesection {
+  max-width: 1200px;
+  padding-top: 30px;
+  display: table;
+  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.leftimage img {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.rightimage img {
+  width: 48%;
+  float: left;
+}
+
+.oneimage img {
+  max-width: 100%;
+}
+
+.textsection {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: white;
+  opacity: .87;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+
+@media (min-width: 1024px) {
+  .textsection {
+    font-size: 1.3em;
+  }
+}
+
+.textsection p {
+  padding-bottom: 20px;
+}
+
+.textsection h3 {
+  padding-top: 20px;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+.button {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.button a {
+  padding: 10px 20px 10px 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#00dbaf), to(#cc48e2));
+  background: linear-gradient(to right, #00dbaf, #cc48e2);
+  color: white;
+  font-size: .9em;
+  border-radius: 10px;
+  border: 1px solid #222;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .button a {
+    padding: 15px 50px 15px 50px;
+  }
+}
+
+.button a:hover {
+  background: transparent;
+  text-decoration: none;
+  border: 1px solid white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Blog.module.css.map */

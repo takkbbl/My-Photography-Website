@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CACR;EACI,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,KAAK;CACxB",
+    "sources": [
+        "Portrait.module.scss"
+    ],
+    "names": [],
+    "file": "Portrait.module.css"
+}

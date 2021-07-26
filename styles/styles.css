@@ -1,0 +1,35 @@
+* {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #00dbaf #1b1b1b;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1b1b1b;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00dbaf;
+  border-radius: 20px;
+  border: 3px solid #1b1b1b;
+}
+
+#root {
+  font-size: 20px;
+  color: #3d4559;
+}
+
+::-moz-selection {
+  background: #cc48e2;
+}
+
+::selection {
+  background: #cc48e2;
+}
+/*# sourceMappingURL=styles.css.map */

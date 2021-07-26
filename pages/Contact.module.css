@@ -1,0 +1,199 @@
+.wrapper {
+  padding-top: 100px;
+  width: 100%;
+  background-color: #222;
+  padding-bottom: 120px;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    padding-bottom: 40px;
+    min-height: 800px;
+  }
+}
+
+.innerwrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .innerwrapper {
+    height: 600px;
+  }
+}
+
+.portrait {
+  width: 100%;
+  max-height: 400px;
+  float: left;
+  display: contents;
+}
+
+@media (min-width: 1024px) {
+  .portrait {
+    width: 60%;
+    display: inline;
+  }
+}
+
+.portrait img {
+  border-radius: 50%;
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  max-height: 400px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (min-width: 1024px) {
+  .portrait img {
+    max-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: auto;
+    margin-top: 30px;
+  }
+}
+
+.contact {
+  width: 100%;
+  height: 100%;
+  float: none;
+  color: white;
+  opacity: .87;
+}
+
+@media (min-width: 1024px) {
+  .contact {
+    width: 40%;
+    float: left;
+  }
+}
+
+.innercontact {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+.contact h1 {
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 1024px) {
+  .contact h1 {
+    text-align: left;
+    margin-top: 0px;
+  }
+}
+
+.inputname {
+  padding: 15px;
+  font-size: 1em;
+  width: 96%;
+  margin-bottom: 10px;
+  background-color: #0f0f0f;
+  color: #00dbaf;
+  border: none;
+  margin-top: 20px;
+}
+
+.inputname:focus {
+  outline: 1px dashed #00dbaf;
+}
+
+.inputmail {
+  padding: 15px;
+  font-size: 1em;
+  width: 96%;
+  margin-bottom: 10px;
+  background-color: #0f0f0f;
+  color: #00dbaf;
+  border: none;
+}
+
+/* Change autofill color */
+.inputmail:-webkit-autofill,
+.inputmail:-webkit-autofill:hover,
+.inputmail:-webkit-autofill:focus,
+.inputmail:-webkit-autofill:active, .inputname:-webkit-autofill,
+.inputname:-webkit-autofill:hover,
+.inputname:-webkit-autofill:focus,
+.inputname:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px #0f0f0f inset;
+  -webkit-text-fill-color: #00dbaf !important;
+}
+
+.inputmail:focus {
+  outline: 1px dashed #00dbaf;
+}
+
+.inputmessage {
+  padding: 15px;
+  font-size: 1em;
+  width: 96%;
+  background-color: #0f0f0f;
+  color: #cc48e2;
+  height: 100px;
+  border: none;
+}
+
+.inputmessage:focus {
+  outline: 1px dashed #cc48e2;
+}
+
+.gdpr {
+  float: left;
+  margin-top: 5px;
+}
+
+.gdprlabel {
+  display: block;
+  margin-left: 20px;
+}
+
+.form a {
+  color: #00dbaf;
+}
+
+.submitbutton {
+  padding: 10px 20px 10px 20px;
+  background: #222;
+  color: white;
+  font-size: .9em;
+  border-radius: 10px;
+  border: 1px solid #888;
+  margin-top: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .submitbutton {
+    padding: 15px 50px 15px 50px;
+  }
+}
+
+.submitbutton:hover {
+  background: #0f0f0f;
+  text-decoration: none;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+
+.submitbutton:focus {
+  outline: none;
+}
+
+.contact p {
+  line-height: 2em;
+}
+/*# sourceMappingURL=Contact.module.css.map */
